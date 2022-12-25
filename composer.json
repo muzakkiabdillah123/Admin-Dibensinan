@@ -1,0 +1,21 @@
+{
+    "name": "acer/web_admin2",
+    "description": "dibensinan",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {
+        "google/cloud-firestore": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "platform": {
+            "php": "7.2.31"
+        }
+    }
+}
