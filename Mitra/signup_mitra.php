@@ -16,6 +16,7 @@ if (isset($_POST["daftar_mitra"])) {
 	$lokasiMitra = $_POST["lokasiMitra"];
 	$stokPertamax = $_POST["stokPertamax"];
 	$stokPertalite = $_POST["stokPertalite"];
+	$jenisBensin = ['Pertalite', 'Pertamax'];
 
 	// add data to database
 	$idMitra = $mitra->newDocument([
@@ -25,6 +26,7 @@ if (isset($_POST["daftar_mitra"])) {
 		"lokasiMitra" => $lokasiMitra,
 		"stokPertamax" => $stokPertamax,
 		"stokPertalite" => $stokPertalite,
+		"jenisBensin" => $jenisBensin,
 	]);
 
 	// alert
