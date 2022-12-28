@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogKonfirmasi"
+    android:background="#EFF7ED"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_bg_head_order_01" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Konfirmasi Pesanan"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_button_profile">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_user_pesan"
+            android:id="@+id/nama_pelanggan_dialog"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_mitra_pesan"
+            android:id="@+id/nama_mitra_dialog"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jns_bensin"
+            android:id="@+id/jenis_bensin_dialog"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fl_loc"
+            android:id="@+id/alamat_antar_dialog"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_bayar"
+            android:id="@+id/total_bayar_dialog"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

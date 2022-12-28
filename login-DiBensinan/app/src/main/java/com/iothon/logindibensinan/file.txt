@@ -1,0 +1,15 @@
+Location startPoint=new Location("locationA");
+startPoint.setLatitude(17.372102);
+startPoint.setLongitude(78.484196);
+
+Location endPoint=new Location("locationA");
+endPoint.setLatitude(17.375775);
+endPoint.setLongitude(78.469218);
+
+double distance=startPoint.distanceTo(endPoint);
+
+Geocoder geocoder = new Geocoder(LokasiOrder.this, Locale.getDefault());
+Location lokasiMitra = new Location("Mitra");
+lokasiMitra.setLatitude(17.375775);
+lokasiMitra.setLongitude(78.469218)
+List<Address> addresses = geocoder.getFromLocation(lokasiMitra.getLatitude(), lokasiMitra.getLongitude(), 1);
