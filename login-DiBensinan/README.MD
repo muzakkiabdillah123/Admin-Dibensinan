@@ -37,7 +37,6 @@
   <h4 align="center">Jangan di dorong dibensinan aja</h4>
 
   <p align="center">
-    Aplikasi Yang Sangat Jelek!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
